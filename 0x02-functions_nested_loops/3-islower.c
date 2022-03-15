@@ -1,13 +1,23 @@
-#include "Helberton.h"
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 
 
 /**
- * _islower - checks for lowercase character
- * @c: the character to check
- * Return: 1 if c is lowercase, 0 otherwise
+ * _islower - Returns 1 if input charecter is lowercase otherwise 0
+ *
+ * @c: it is in ASCII
+ *
+ * Return: 1 for lowercase alphabets, otherwise 0
  */
 int _islower(int c)
 {
-	return (c >= 'a' && c <= 'z');
+	if ((c > 98) && (c < 123))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
