@@ -2,20 +2,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ * print_alphabet- Print all small alphabets.
+ *
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char ch;
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	ch = 'a';
-
-	while (ch <= 'z')
+	for (i = 0; i < 26; i++)
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(alphabets[i]);
 	}
-
 	_putchar('\n');
 }
-
