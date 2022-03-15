@@ -6,9 +6,10 @@
  */
 
 int main(void)
-{	
+{
+      int i;
       char word [] = "_putchar";
-      for(int i = 0 ; i <= 7; i++){
+      for(i = 0 ; i <= 7; i++){
 
 	   _putcher(word[i]); 
       }   
