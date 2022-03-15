@@ -3,27 +3,22 @@
 
 
 /**
-* print_to_98 - prints all natural numbers from n to 98
-*
-* @n: input number.
-*
-* Return: null
-*/
-void print_to_98(int n)
+ * print_alphabet_x10 - print all small alphabets 10x
+ *
+ * Return: Always 0
+ */
+void print_alphabet_x10(void)
 {
-	if (n > 98)
+	int i;
+	int j;
+	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+
+	for (i = 0; i < 10; i++)
 	{
-	for (; n > 98; n--)
+		for (j = 0; j < 26; j++)
 		{
-		printf("%d, ", n);
+			_putchar(alphabets[j]);
 		}
+		_putchar('\n');
 	}
-	else if (n < 98)
-	{
-		for (; n < 98; n++)
-		{
-		printf("%d, ", n);
-		}
-	}
-	printf("%d\n", n);
 }
