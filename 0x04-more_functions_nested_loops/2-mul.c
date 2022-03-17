@@ -1,6 +1,6 @@
 #include "main.h"
-#include <stdio.h
->
+#include <stdio.h>
+
 /**
  * mul - multiplies two given integers
  * @a: num_one
