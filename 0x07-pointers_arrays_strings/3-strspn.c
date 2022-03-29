@@ -24,6 +24,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (length);
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
+
