@@ -1,0 +1,1 @@
+The value of the argc argument is the number of command line arguments. The argv argument is a vector of C strings; its elements are the individual command line argument strings. The file name of the program being run is also included in the vector as the first element; the value of argc counts this element
